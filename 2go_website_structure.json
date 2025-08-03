@@ -1,0 +1,182 @@
+{
+  "brand_info": {
+    "name": "2Go",
+    "tagline": "Fresh Flavors On The Go",
+    "logo_font": "K2D",
+    "tagline_font": "All Round Gothic Regular",
+    "background_color": "#D64C4C",
+    "logo_color": "#FFFFFF",
+    "concept": "Premium juice brand focused on convenience and quality for busy lifestyles"
+  },
+  "site_architecture": {
+    "homepage": {
+      "hero_section": "Large hero image with brand name overlay and CTA",
+      "featured_products": "Image-based product categories with text overlays",
+      "about_preview": "Brief brand story section",
+      "testimonials": "Customer reviews carousel",
+      "newsletter_signup": "Email subscription form"
+    },
+    "main_navigation": [
+      {
+        "page": "Home",
+        "url": "/",
+        "description": "Homepage with hero and featured products"
+      },
+      {
+        "page": "Our Juices",
+        "url": "/juices",
+        "description": "Complete product catalog with categories"
+      },
+      {
+        "page": "About Us",
+        "url": "/about",
+        "description": "Brand story, mission, and team"
+      },
+      {
+        "page": "Health Benefits",
+        "url": "/health",
+        "description": "Nutritional information and wellness content"
+      },
+      {
+        "page": "Locations",
+        "url": "/locations",
+        "description": "Store finder and contact information"
+      },
+      {
+        "page": "Contact",
+        "url": "/contact",
+        "description": "Contact form and support information"
+      }
+    ],
+    "product_pages": {
+      "categories": [
+        {
+          "name": "Citrus Collection",
+          "products": [
+            "Orange Burst",
+            "Lemon Ginger Zing",
+            "Grapefruit Mint"
+          ]
+        },
+        {
+          "name": "Tropical Blend",
+          "products": [
+            "Pineapple Paradise",
+            "Mango Passion"
+          ]
+        },
+        {
+          "name": "Berry Power",
+          "products": [
+            "Mixed Berry Blast",
+            "Cranberry Apple"
+          ]
+        },
+        {
+          "name": "Green Goodness",
+          "products": [
+            "Green Goddess",
+            "Cucumber Mint Cooler"
+          ]
+        },
+        {
+          "name": "Wellness Shots",
+          "products": [
+            "Carrot Ginger Wellness"
+          ]
+        }
+      ]
+    },
+    "secondary_pages": [
+      {
+        "page": "FAQ",
+        "url": "/faq",
+        "description": "Frequently asked questions"
+      },
+      {
+        "page": "Nutrition Facts",
+        "url": "/nutrition",
+        "description": "Detailed nutritional information"
+      },
+      {
+        "page": "Sustainability",
+        "url": "/sustainability",
+        "description": "Environmental commitment"
+      },
+      {
+        "page": "Corporate Wellness",
+        "url": "/corporate",
+        "description": "B2B services and bulk orders"
+      },
+      {
+        "page": "Blog",
+        "url": "/blog",
+        "description": "Health tips and juice recipes"
+      },
+      {
+        "page": "Terms & Conditions",
+        "url": "/terms",
+        "description": "Legal information"
+      },
+      {
+        "page": "Privacy Policy",
+        "url": "/privacy",
+        "description": "Privacy and data protection"
+      }
+    ]
+  },
+  "design_patterns": {
+    "image_overlays": {
+      "homepage_hero": "Large background image with brand name and tagline overlay",
+      "category_tiles": "Product category images with category names and 'Shop Now' overlays",
+      "featured_products": "Individual product images with name, price, and 'Add to Cart' overlays"
+    },
+    "navigation_style": {
+      "desktop": "Horizontal navigation bar with dropdown menus for product categories",
+      "mobile": "Hamburger menu with collapsible sections",
+      "sticky_header": "Navigation stays visible when scrolling"
+    },
+    "visual_elements": {
+      "color_scheme": [
+        "#D64C4C (primary red)",
+        "#FFFFFF (white)",
+        "#2C3E50 (dark text)",
+        "#27AE60 (accent green)",
+        "#F8F9FA (light background)"
+      ],
+      "typography": "K2D for headings and brand elements, All Round Gothic Regular for body text",
+      "imagery": "High-quality fruit and juice photography with consistent lighting and styling",
+      "icons": "Simple, line-based icons for features and benefits"
+    }
+  },
+  "responsive_design": {
+    "breakpoints": {
+      "mobile": "max-width: 768px",
+      "tablet": "769px - 1024px",
+      "desktop": "min-width: 1025px"
+    },
+    "mobile_optimizations": [
+      "Touch-friendly button sizes (minimum 44px)",
+      "Simplified navigation with collapsible menus",
+      "Stacked layout for product grids",
+      "Optimized images for faster loading",
+      "Swipe gestures for product carousels"
+    ]
+  },
+  "content_strategy": {
+    "homepage": {
+      "hero_headline": "Fresh Juices, Delivered Fast",
+      "hero_subheading": "Premium cold-pressed juices for your active lifestyle",
+      "value_propositions": [
+        "100% Natural",
+        "Cold-Pressed",
+        "No Added Sugar",
+        "Ready in Minutes"
+      ]
+    },
+    "product_descriptions": {
+      "format": "Name, ingredients, health benefits, flavor profile, and nutritional highlights",
+      "tone": "Friendly, health-focused, and energetic"
+    }
+  }
+}

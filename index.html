@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2Go - Fresh Flavors On The Go</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=K2D:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand" data-page="home">
+                <h1 class="brand-name">2Go</h1>
+                <p class="brand-tagline">Fresh Flavors On The Go</p>
+            </div>
+            <ul class="nav__menu" id="navMenu">
+                <li><a href="#" data-page="home" class="nav__link active">Home</a></li>
+                <li><a href="#" data-page="juices" class="nav__link">Our Juices</a></li>
+                <li><a href="#" data-page="about" class="nav__link">About Us</a></li>
+                <li><a href="#" data-page="health" class="nav__link">Health Benefits</a></li>
+                <li><a href="#" data-page="locations" class="nav__link">Locations</a></li>
+                <li><a href="#" data-page="contact" class="nav__link">Contact</a></li>
+            </ul>
+            <button class="nav__toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Page Container -->
+    <main class="page-container">
+        
+        <!-- HOME PAGE -->
+        <div id="home-page" class="page active">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero__background">
+                    <div class="hero__overlay"></div>
+                    <div class="hero__content container">
+                        <h2 class="hero__title">Fresh Flavors On The Go</h2>
+                        <p class="hero__subtitle">Premium cold-pressed juices crafted for your active lifestyle</p>
+                        <div class="hero__buttons">
+                            <button class="btn btn--primary" data-action="order">Order Now</button>
+                            <button class="btn btn--outline" data-scroll="fullscreen-sections">Explore Flavors</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Full-Screen Category Sections -->
+            <section class="fullscreen-section citrus-collection" data-category="citrus_collection">
+                <div class="fullscreen-section__background"></div>
+                <div class="fullscreen-section__overlay"></div>
+                <div class="fullscreen-section__content fullscreen-section__content--left">
+                    <h2 class="fullscreen-section__title">CITRUS COLLECTION</h2>
+                    <p class="fullscreen-section__description">Energizing citrus blends to start your day</p>
+                    <button class="btn btn--primary fullscreen-section__btn" data-category="citrus_collection">SHOP NOW</button>
+                </div>
+            </section>
+
+            <section class="fullscreen-section tropical-blend" data-category="tropical_blend">
+                <div class="fullscreen-section__background"></div>
+                <div class="fullscreen-section__overlay"></div>
+                <div class="fullscreen-section__content fullscreen-section__content--right">
+                    <h2 class="fullscreen-section__title">TROPICAL BLEND</h2>
+                    <p class="fullscreen-section__description">Exotic tropical fruits for a vacation feeling</p>
+                    <button class="btn btn--primary fullscreen-section__btn" data-category="tropical_blend">EXPLORE</button>
+                </div>
+            </section>
+
+            <section class="fullscreen-section berry-power" data-category="berry_power">
+                <div class="fullscreen-section__background"></div>
+                <div class="fullscreen-section__overlay"></div>
+                <div class="fullscreen-section__content fullscreen-section__content--center">
+                    <h2 class="fullscreen-section__title">BERRY POWER</h2>
+                    <p class="fullscreen-section__description">Antioxidant-rich berry combinations</p>
+                    <button class="btn btn--primary fullscreen-section__btn" data-category="berry_power">SHOP NOW</button>
+                </div>
+            </section>
+
+            <section class="fullscreen-section green-goodness" data-category="green_goodness">
+                <div class="fullscreen-section__background"></div>
+                <div class="fullscreen-section__overlay"></div>
+                <div class="fullscreen-section__content fullscreen-section__content--left">
+                    <h2 class="fullscreen-section__title">GREEN GOODNESS</h2>
+                    <p class="fullscreen-section__description">Nutrient-packed green vegetable blends</p>
+                    <button class="btn btn--primary fullscreen-section__btn" data-category="green_goodness">DISCOVER</button>
+                </div>
+            </section>
+
+            <section class="fullscreen-section wellness-shots" data-category="wellness_shots">
+                <div class="fullscreen-section__background"></div>
+                <div class="fullscreen-section__overlay"></div>
+                <div class="fullscreen-section__content fullscreen-section__content--right">
+                    <h2 class="fullscreen-section__title">WELLNESS SHOTS</h2>
+                    <p class="fullscreen-section__description">Concentrated health boosters</p>
+                    <button class="btn btn--primary fullscreen-section__btn" data-category="wellness_shots">SHOP ALL</button>
+                </div>
+            </section>
+
+            <!-- Testimonials -->
+            <section class="testimonials">
+                <div class="container">
+                    <div class="section__header">
+                        <h2>What Our Customers Say</h2>
+                        <p>Real reviews from real juice lovers</p>
+                    </div>
+                    <div class="testimonials__carousel" id="testimonialsCarousel">
+                        <!-- Testimonials will be populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Newsletter -->
+            <section class="newsletter">
+                <div class="container">
+                    <div class="newsletter__content">
+                        <h2>Stay Fresh</h2>
+                        <p>Get updates on new flavors, health tips, and exclusive offers</p>
+                        <form class="newsletter__form" id="newsletterForm">
+                            <input type="email" class="form-control newsletter__input" placeholder="Enter your email address" required>
+                            <button type="submit" class="btn btn--primary">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- JUICES PAGE -->
+        <div id="juices-page" class="page">
+            <section class="page-hero">
+                <div class="container">
+                    <h1 class="page-title">Our Juices</h1>
+                    <p class="page-subtitle">Explore our complete collection of premium cold-pressed juices</p>
+                </div>
+            </section>
+
+            <section class="products">
+                <div class="container">
+                    <div class="products__filters" id="productFilters">
+                        <!-- Filters will be populated by JavaScript -->
+                    </div>
+                    <div class="products__grid" id="productsGrid">
+                        <!-- Products will be populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ABOUT PAGE -->
+        <div id="about-page" class="page">
+            <section class="page-hero">
+                <div class="container">
+                    <h1 class="page-title">About 2Go</h1>
+                    <p class="page-subtitle">Our story of bringing fresh, healthy juices to busy lives</p>
+                </div>
+            </section>
+
+            <section class="about-content">
+                <div class="container">
+                    <div class="about__story">
+                        <div class="about__text">
+                            <h2>Our Story</h2>
+                            <p>2Go was born from a simple mission: to make premium, nutritious juices accessible to everyone living life on the go. We understand that maintaining a healthy lifestyle can be challenging when you're juggling work, family, and personal commitments.</p>
+                            <p>That's why we've created a line of cold-pressed juices that deliver maximum nutrition without compromising on taste or convenience. Every bottle is crafted with care, using only the finest organic ingredients sourced from trusted farms.</p>
+                        </div>
+                        <div class="about__image">
+                            <div class="about__image-placeholder">
+                                <span>🌱</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mission__grid">
+                        <div class="mission__card">
+                            <h3>Our Mission</h3>
+                            <p>To provide busy individuals with convenient access to premium, nutritious juices that fuel their active lifestyles.</p>
+                        </div>
+                        <div class="mission__card">
+                            <h3>Our Vision</h3>
+                            <p>A world where healthy nutrition is accessible, convenient, and delicious for everyone, everywhere.</p>
+                        </div>
+                        <div class="mission__card">
+                            <h3>Our Values</h3>
+                            <p>Quality, sustainability, convenience, and the belief that good health should never be compromised by a busy schedule.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- HEALTH BENEFITS PAGE -->
+        <div id="health-page" class="page">
+            <section class="page-hero">
+                <div class="container">
+                    <h1 class="page-title">Health Benefits</h1>
+                    <p class="page-subtitle">Discover the nutritional power behind every 2Go juice</p>
+                </div>
+            </section>
+
+            <section class="benefits">
+                <div class="container">
+                    <div class="benefits__grid" id="benefitsGrid">
+                        <!-- Benefits will be populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- LOCATIONS PAGE -->
+        <div id="locations-page" class="page">
+            <section class="page-hero">
+                <div class="container">
+                    <h1 class="page-title">Find Us</h1>
+                    <p class="page-subtitle">Visit our locations or get 2Go delivered to your door</p>
+                </div>
+            </section>
+
+            <section class="locations">
+                <div class="container">
+                    <div class="locations__grid" id="locationsGrid">
+                        <!-- Locations will be populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- CONTACT PAGE -->
+        <div id="contact-page" class="page">
+            <section class="page-hero">
+                <div class="container">
+                    <h1 class="page-title">Contact Us</h1>
+                    <p class="page-subtitle">Get in touch with the 2Go team</p>
+                </div>
+            </section>
+
+            <section class="contact">
+                <div class="container">
+                    <div class="contact__content">
+                        <div class="contact__form-wrapper">
+                            <h2>Send us a message</h2>
+                            <form class="contact__form" id="contactForm">
+                                <div class="form-group">
+                                    <label class="form-label" for="name">Name</label>
+                                    <input type="text" id="name" name="name" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="email">Email</label>
+                                    <input type="email" id="email" name="email" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="subject">Subject</label>
+                                    <input type="text" id="subject" name="subject" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="message">Message</label>
+                                    <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                            </form>
+                        </div>
+                        
+                        <div class="contact__info">
+                            <h2>Get in touch</h2>
+                            <div class="contact__item">
+                                <h4>📧 Email</h4>
+                                <p>hello@2gojuice.com</p>
+                            </div>
+                            <div class="contact__item">
+                                <h4>📞 Phone</h4>
+                                <p>(555) 2GO-JUICE</p>
+                            </div>
+                            <div class="contact__item">
+                                <h4>🕒 Customer Service Hours</h4>
+                                <p>Monday - Friday: 8AM - 8PM<br>Saturday - Sunday: 9AM - 6PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3 class="brand-name">2Go</h3>
+                    <p class="brand-tagline">Fresh Flavors On The Go</p>
+                    <p>Premium cold-pressed juices for your active lifestyle.</p>
+                </div>
+                <div class="footer__links">
+                    <div class="footer__section">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#" data-page="home">Home</a></li>
+                            <li><a href="#" data-page="juices">Our Juices</a></li>
+                            <li><a href="#" data-page="about">About Us</a></li>
+                            <li><a href="#" data-page="health">Health Benefits</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__section">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#" data-page="contact">Contact Us</a></li>
+                            <li><a href="#" data-page="locations">Find Locations</a></li>
+                            <li><a href="#" data-action="faq">FAQ</a></li>
+                            <li><a href="#" data-action="shipping">Shipping Info</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__section">
+                        <h4>Follow Us</h4>
+                        <div class="footer__social">
+                            <a href="#" target="_blank">Instagram</a>
+                            <a href="#" target="_blank">Facebook</a>
+                            <a href="#" target="_blank">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 2Go. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

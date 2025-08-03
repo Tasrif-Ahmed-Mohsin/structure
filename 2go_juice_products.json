@@ -1,0 +1,203 @@
+{
+  "citrus_collection": [
+    {
+      "name": "Orange Burst",
+      "tagline": "Classic Energy Boost",
+      "description": "Start your day with our signature Valencia orange blend, packed with natural vitamin C and vibrant citrus flavor.",
+      "ingredients": [
+        "Valencia Oranges",
+        "Natural Citrus Oils",
+        "Filtered Water"
+      ],
+      "benefits": [
+        "High Vitamin C",
+        "Natural Energy",
+        "Immune Support"
+      ],
+      "price": "$4.99",
+      "size": "16oz",
+      "color_theme": "#FF8C00"
+    },
+    {
+      "name": "Lemon Ginger Zing",
+      "tagline": "Digestive Power Shot",
+      "description": "Refreshing lemon juice meets invigorating fresh ginger for the perfect digestive wellness drink.",
+      "ingredients": [
+        "Fresh Lemons",
+        "Organic Ginger Root",
+        "Raw Honey",
+        "Filtered Water"
+      ],
+      "benefits": [
+        "Digestive Support",
+        "Anti-inflammatory",
+        "Immune Boost"
+      ],
+      "price": "$5.49",
+      "size": "16oz",
+      "color_theme": "#FFD700"
+    },
+    {
+      "name": "Grapefruit Mint",
+      "tagline": "Metabolism Kickstart",
+      "description": "Tart pink grapefruit balanced with cooling fresh mint creates the perfect metabolism-boosting refresher.",
+      "ingredients": [
+        "Pink Grapefruit",
+        "Fresh Mint Leaves",
+        "Filtered Water"
+      ],
+      "benefits": [
+        "Metabolism Boost",
+        "Hydrating",
+        "Detoxifying"
+      ],
+      "price": "$4.79",
+      "size": "16oz",
+      "color_theme": "#FF69B4"
+    }
+  ],
+  "tropical_blend": [
+    {
+      "name": "Pineapple Paradise",
+      "tagline": "Tropical Escape",
+      "description": "Transport yourself to the tropics with sweet pineapple and coconut water for natural electrolyte replenishment.",
+      "ingredients": [
+        "Fresh Pineapple",
+        "Coconut Water",
+        "Lime Juice",
+        "Filtered Water"
+      ],
+      "benefits": [
+        "Natural Electrolytes",
+        "Digestive Enzymes",
+        "Tropical Vitamins"
+      ],
+      "price": "$5.99",
+      "size": "16oz",
+      "color_theme": "#FFD700"
+    },
+    {
+      "name": "Mango Passion",
+      "tagline": "Exotic Indulgence",
+      "description": "Rich Alphonso mangoes blended with passion fruit create this exotic, vitamin-rich tropical treat.",
+      "ingredients": [
+        "Alphonso Mangoes",
+        "Passion Fruit Pulp",
+        "Filtered Water"
+      ],
+      "benefits": [
+        "Beta-carotene",
+        "Vitamin A",
+        "Tropical Antioxidants"
+      ],
+      "price": "$6.29",
+      "size": "16oz",
+      "color_theme": "#FF8C00"
+    }
+  ],
+  "berry_power": [
+    {
+      "name": "Mixed Berry Blast",
+      "tagline": "Antioxidant Powerhouse",
+      "description": "A superfood blend of seasonal berries packed with antioxidants and natural sweetness.",
+      "ingredients": [
+        "Strawberries",
+        "Blueberries",
+        "Raspberries",
+        "Blackberries",
+        "Filtered Water"
+      ],
+      "benefits": [
+        "High Antioxidants",
+        "Anti-inflammatory",
+        "Heart Health"
+      ],
+      "price": "$6.49",
+      "size": "16oz",
+      "color_theme": "#8B008B"
+    },
+    {
+      "name": "Cranberry Apple",
+      "tagline": "Tart & Sweet Balance",
+      "description": "Tart cranberries meet sweet Honeycrisp apples in this perfectly balanced, urinary health-supporting blend.",
+      "ingredients": [
+        "Fresh Cranberries",
+        "Honeycrisp Apples",
+        "Filtered Water"
+      ],
+      "benefits": [
+        "Urinary Health",
+        "Natural Sweetness",
+        "Vitamin C"
+      ],
+      "price": "$5.29",
+      "size": "16oz",
+      "color_theme": "#DC143C"
+    }
+  ],
+  "green_goodness": [
+    {
+      "name": "Green Goddess",
+      "tagline": "Detox Champion",
+      "description": "Our signature green blend combines nutrient-dense vegetables and fruits for the ultimate detox experience.",
+      "ingredients": [
+        "Spinach",
+        "Kale",
+        "Cucumber",
+        "Green Apple",
+        "Celery",
+        "Lemon",
+        "Filtered Water"
+      ],
+      "benefits": [
+        "Detoxifying",
+        "Nutrient-Dense",
+        "Alkalizing"
+      ],
+      "price": "$7.99",
+      "size": "16oz",
+      "color_theme": "#32CD32"
+    },
+    {
+      "name": "Cucumber Mint Cooler",
+      "tagline": "Hydration Hero",
+      "description": "Ultra-hydrating cucumber with refreshing mint creates the perfect low-calorie, cooling beverage.",
+      "ingredients": [
+        "Fresh Cucumber",
+        "Mint Leaves",
+        "Lime Juice",
+        "Filtered Water"
+      ],
+      "benefits": [
+        "Hydrating",
+        "Low-Calorie",
+        "Cooling"
+      ],
+      "price": "$4.99",
+      "size": "16oz",
+      "color_theme": "#98FB98"
+    }
+  ],
+  "wellness_shots": [
+    {
+      "name": "Carrot Ginger Wellness",
+      "tagline": "Immunity Booster",
+      "description": "Earthy carrots with warming ginger and turmeric create this anti-inflammatory wellness shot.",
+      "ingredients": [
+        "Organic Carrots",
+        "Fresh Ginger",
+        "Turmeric",
+        "Black Pepper",
+        "Filtered Water"
+      ],
+      "benefits": [
+        "Anti-inflammatory",
+        "Beta-carotene",
+        "Immune Support"
+      ],
+      "price": "$3.99",
+      "size": "4oz",
+      "color_theme": "#FF4500"
+    }
+  ]
+}
